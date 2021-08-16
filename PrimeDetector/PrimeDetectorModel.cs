@@ -17,7 +17,7 @@ namespace PrimeDetector
 
             var isPrime = true;
 
-            for (int i = 2; i < Math.Sqrt(n); i++)
+            for (int i = 2; i <= Math.Sqrt(n); i++)
             {
                 if (n % i == 0) isPrime = false;
             }
